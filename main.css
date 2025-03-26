@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+h1{
+    font-family: "Bungee Tint", sans-serif;
+}
+p{ 
+    font-family: "Mali", sans-serif;
+}
+h2{
+    font-family: "Mali", sans-serif;
+}
+h3{
+    font-family: "Mali", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+.content{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background: url(https://t3.ftcdn.net/jpg/05/61/45/70/360_F_561457090_mr29SIB3EzTQjSJ9W2nxQfQpVdscnPFl.jpg)no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 50px;
+    size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.logo-img{
+    width: 10%;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+    transition:  0.25s ease;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+ul li{
+    text-decoration: none;
+    margin: 0 0.75em 0 0.75em;
+}
+
+ul:hover a{
+color: #575757;
+}
+
+ul:hover a:hover{
+    color: #fd7676;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+.menu li{
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.menu li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.maincontent{
+    background: url(https://i.pinimg.com/736x/a4/17/c7/a417c7a3f274f9b22a7e2ab1d304ee72.jpg)no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.maincontent-con{
+    display: flex;
+
+}
+
+.maincontent-info{
+    width: 100%;
+    padding: 2.5rem;
+}
+
+.maincontent-info h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+}
+
+.maincontent-info p{
+    color: white;
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.maincontent-info .maincontent-btn{
+    background-color: rgb(247, 162, 4);
+    color: rgb(252, 252, 252);
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.maincontent-img{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.maincontent-img img{
+    border-radius: 5px;
+}
+
+.content-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20rem;
+}
+
+.content-title{
+    margin: 1rem 0;
+}
+
+.content-item img{
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.content-item h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #ff0000, #f8004a 50%, #bc00eb);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:active,
+  button:hover {
+    outline: 0;
+  }
+  
+  button span {
+    background-color: rgb(0, 0, 0);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  button:hover span {
+    background: none;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+  .text a{
+    text-decoration: none;
+    color: #ffffff;
+  }

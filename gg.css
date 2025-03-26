@@ -1,0 +1,62 @@
+h2{
+    font-family: "Mali", sans-serif;
+}
+h3{
+    font-family: "Mali", sans-serif;
+}
+p{
+    font-family: "Mali", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+.content{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background: url(https://t3.ftcdn.net/jpg/05/61/45/70/360_F_561457090_mr29SIB3EzTQjSJ9W2nxQfQpVdscnPFl.jpg)no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 50px;
+    size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.logo-img{
+    width: 10%;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.menu li a{
+    color: aliceblue;
+    text-decoration: none;
+}
