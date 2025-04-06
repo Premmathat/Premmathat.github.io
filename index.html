@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love tiger</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 id="mytitle"> 💞 ถึงพี่ไทเกอร์ 💞 </h1>
+    <div class="info">
+        <h2>ชื่อ: เปรม</h2>
+        <button onclick="showText()"><h2>contact</h2></button>
+
+  <p id="output" style="display: none;">ไม่บอกครับ ความลับ</p>
+
+  <script>
+    function showText() {
+      const output = document.getElementById("output");
+      output.style.display = "block"; // แสดงข้อความ
+    }
+  </script>
+        <h2>สถานะ : เเอบชอบพี่ไทเกอร์</h2>
+        <h2>คอนเเทค : จุ๊ๆ🤫</h2>
+        <h2>กดปุ่มเพื่อแสดงภาพ Popup</h2>
+  <button onclick="showPopup()">📷 แสดงมีม</button>
+
+  <!-- overlay -->
+  <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+  <!-- popup modal -->
+  <div class="popup" id="popup">
+    <img src="https://img.salehere.co.th/p/1200x0/2021/09/11/jhhxjok5rxn1.jpg" alt="ภาพมีมมม">
+    <br>
+    <button class="close-btn" onclick="closePopup()">ปิด</button>
+  </div>
+
+  <script>
+    function showPopup() {
+      document.getElementById('popup').style.display = 'block';
+      document.getElementById('overlay').style.display = 'block';
+    }
+
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+      document.getElementById('overlay').style.display = 'none';
+    }
+  </script>
+      
+    </div>
+</body>
+</html>
